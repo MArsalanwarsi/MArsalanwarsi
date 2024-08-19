@@ -15,18 +15,6 @@
   <tbody>
     <tr>
       <td align="center" style="border: none;">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" style="color: white;">
-          <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="50" height="50"/>
-        </a>
-        <br>JavaScript
-      </td>
-      <td align="center" style="border: none;">
-        <a href="https://jquery.com/" style="color: white;">
-          <img src="https://skillicons.dev/icons?i=jquery" width="50" height="50" alt="jQuery"/>
-        </a>
-        <br>jQuery
-      </td>
-      <td align="center" style="border: none;">
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" style="color: white;">
           <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="50" height="50" alt="HTML"/>
         </a>
@@ -37,6 +25,24 @@
           <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="50" height="50" alt="CSS"/>
         </a>
         <br>CSS
+      </td>
+      <td align="center" style="border: none;">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" style="color: white;">
+          <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="50" height="50"/>
+        </a>
+        <br>JavaScript
+      </td>
+     <td align="center" style="border: none;">
+        <a href="https://jquery.com/" style="color: white;">
+          <img src="https://skillicons.dev/icons?i=bootstrap" width="50" height="50" alt="jQuery"/>
+        </a>
+        <br>Bootstrap
+      </td>
+      <td align="center" style="border: none;">
+        <a href="https://jquery.com/" style="color: white;">
+          <img src="https://skillicons.dev/icons?i=jquery" width="50" height="50" alt="jQuery"/>
+        </a>
+        <br>jQuery
       </td>
     </tr>
   </tbody>
