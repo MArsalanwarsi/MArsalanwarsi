@@ -50,7 +50,7 @@
 </div>
 
 <div style="display:flex;">
-<div align="center">
+<div >
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
   <thead>
     <tr>
@@ -67,7 +67,7 @@
 </table>
 </div>
 
-<div align="center">
+<div >
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
   <thead>
     <tr>
