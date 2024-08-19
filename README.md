@@ -1,9 +1,6 @@
- # 👋 Hi, I’m M Arsalan Warsi
- # 🚀 Full Stack Developer 🌐 | HTML, CSS, JS, Bootstrap, jQuery, JSON, GIT, MYSQL, PHP | Crafting Seamless Experiences! 🎨✨
-
 <div align="center">
   <a href="https://bento.me/kenangain">
-    <img width="100%" src="https://cardivo.vercel.app/api?name=M%20%.Arsalan%20%Warsi&description=🚀%20Full%20Stack%20Developer%20🌐%20|%20HTML,%20CSS,%20JS,%20Bootstrap,%20jQuery,%20JSON,%20GIT,%20MYSQL,%20PHP%20|%20Crafting%20Seamless%20Experiences!%20🎨✨.&image=https://avatars.githubusercontent.com/u/146295721?v=4&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&youtube=knightgamer87&instagram=knightgamer87&linkedin=KenanGain&github=KenanGain&twitter=KenanGain" alt="Kenan Gain's Card" />
+    <img width="100%" src="https://cardivo.vercel.app/api?name=M.Arsalan%20%Warsi&description=🚀%20Full%20Stack%20Developer%20🌐%20|%20HTML,%20CSS,%20JS,%20Bootstrap,%20jQuery,%20JSON,%20GIT,%20MYSQL,%20PHP%20|%20Crafting%20Seamless%20Experiences!%20🎨✨.&image=https://avatars.githubusercontent.com/u/146295721?v=4&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&linkedin=M.Sheikh%20%Arsalan&github=MArsalanwarsi alt="MArsalanwarsi's Card" />
 
 
   </a>
