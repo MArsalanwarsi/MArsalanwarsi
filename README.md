@@ -53,7 +53,7 @@
   <tbody>
     <tr>
       <td align="center" style="border: none;">
-       <img src="https://skillicons.dev/icons?i=express" width="50" height="50"/><br>PHP
+       <img src="https://skillicons.dev/icons?i=php" width="50" height="50"/><br>PHP
       </td>
     </tr>
   </tbody>
