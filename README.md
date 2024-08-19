@@ -49,6 +49,7 @@
 </table>
 </div>
 
+<div style="display:flex;">
 <div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
   <thead>
@@ -81,4 +82,5 @@
     </tr>
   </tbody>
 </table>
+</div>
 </div>
