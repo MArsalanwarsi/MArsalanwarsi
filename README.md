@@ -60,4 +60,19 @@
 </table>
 </div>
 
-
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="4" align="center" style="color: white;">Database</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+       <img src="https://skillicons.dev/icons?i=sql" width="50" height="50"/><br>MYSQL
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
