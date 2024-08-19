@@ -49,8 +49,7 @@
 </table>
 </div>
 
-<div style="display:flex;">
-<div >
+<div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
   <thead>
     <tr>
@@ -67,7 +66,7 @@
 </table>
 </div>
 
-<div >
+<div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
   <thead>
     <tr>
@@ -83,4 +82,20 @@
   </tbody>
 </table>
 </div>
-</div>
+
+<h2 align="center">📫 Let's Connect!</h2>
+
+<table align="center">
+  <tr>
+    <td colspan="3" align="center">
+      <a href="mailto:mohammadarsalanwarsi@gmail.com" target="_blank">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=sigmail&subtitle=mohammadarsalanwarsi0@gmail.com&size=square" alt="mohammadarsalanwarsi" style="margin: 10px;">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Pakistan-3150207265&size=square" target="_blank">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Pakistan-3150207265&size=square" alt="Pakistan-+92-315-020-7295" style="margin: 10px;">
+      </a>
+    </td>
+  </tr>
+</table>
