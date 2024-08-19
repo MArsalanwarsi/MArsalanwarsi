@@ -93,8 +93,8 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Pakistan-3150207265&size=square" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Pakistan-3150207265&size=square" alt="Pakistan-+92-315-020-7295" style="margin: 10px;">
+      <a href="https://wa.me/qr/Y6ENLWBQOAP7J1" target="_blank">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Pakistan - +923150207265&size=square" alt="Pakistan-+92-315-020-7295" style="margin: 10px;">
       </a>
     </td>
   </tr>
