@@ -87,7 +87,7 @@
        <img src="https://skillicons.dev/icons?i=mysql" width="50" height="50"/><br>MYSQL
       </td>
        <td align="center" style="border: none;">
-       <img src="https://skillicons.dev/icons?i=sql" width="50" height="50"/><br>MYSQL
+       <img src="https://skillicons.dev/icons?i=mysql" width="50" height="50"/><br>SQL
       </td>
     </tr>
   </tbody>
