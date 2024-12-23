@@ -2,16 +2,15 @@
 
 <div align="center">
   <a href="https://m-arsalan-warsi-portfolio.free.nf/">
-    <img width="100%" src="https://cardivo.vercel.app/api?name=M.Arsalan%20%Warsi&description=🚀%20Full%20Stack%20Developer%20🌐%20|%20HTML,%20CSS,%20JS,%20Bootstrap,%20jQuery,%20JSON,%20GIT,%20MYSQL,%20PHP%20|%20Crafting%20Seamless%20Experiences!%20🎨✨.&image=https://avatars.githubusercontent.com/u/146295721?v=4&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&linkedin=M.Sheikh%20%Arsalan&github=MArsalanwarsi" alt="MArsalanwarsi's Card" />
+    <img width="100%" src="https://cardivo.vercel.app/api?name=M.Arsalan%20%Warsi&description=🚀%20Full%20Stack%20Developer%20🌐%20|%20HTML,%20CSS,%20JS,%20Bootstrap,%20jQuery,%20JSON,%20GIT,%20MYSQL,%20SQL,%20PHP%20|%20Crafting%20Seamless%20Experiences!%20🎨✨.&image=https://avatars.githubusercontent.com/u/146295721?v=4&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&linkedin=M.Sheikh%20%Arsalan&github=MArsalanwarsi" alt="MArsalanwarsi's Card" />
 
 
   </a>
 </div>
 
  
-- 👀 I’m interested in Web and App Development
-- 🌱 I’m currently learning Back-End Web Development
-- 📫 Reach me Through Email mohammadarsalanwarsi@gmail.com
+- 👀 Currently engaged in the pursuit of full-stack web and application development.
+- 📫 Please feel free to contact me via email at mohammadarsalanwarsi@gmail.com.
 <h3 align="center">Web Development</h3>
 
 <div align="center">
