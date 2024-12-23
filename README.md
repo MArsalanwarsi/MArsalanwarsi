@@ -94,7 +94,7 @@
 </table>
 </div>
 
-<h2 align="center">📫 Let's Connect!</h2>
+/*<h2 align="center">📫 Let's Connect!</h2>
 
 <table align="center">
   <tr>
@@ -109,4 +109,4 @@
       </a>
     </td>
   </tr>
-</table>
+</table>*/
