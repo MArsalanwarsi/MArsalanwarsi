@@ -192,34 +192,6 @@ Admin dashboard concept for product management, order workflows, customer manage
   <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050505,50:7C3AED,100:DC2626" alt="separator" />
 </p>
 
-<h2 align="center">Experience</h2>
-
-<div align="center">
-
-### Teaching Intern — Aptech Shahrah-e-Faisal
-
-`Dec 2025 — Present`
-
-Teaching MERN Stack and PHP with a practical focus on JWT authentication, REST APIs, cookies, assignments, code reviews, and project-based learning.
-
-`MERN Stack` `PHP` `JWT` `REST APIs` `Teaching`
-
----
-
-### Computer Teacher — Boston Grammar School
-
-`Aug 2025 — Dec 2025`
-
-Taught computing basics, programming fundamentals, web development foundations, and problem-solving skills.
-
-`Computing` `Programming` `Web Basics` `Student Mentorship`
-
-</div>
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050505,50:7C3AED,100:DC2626" alt="separator" />
-</p>
-
 <h2 align="center">Recognition</h2>
 
 <p align="center">
