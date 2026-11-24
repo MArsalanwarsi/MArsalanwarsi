@@ -14,19 +14,19 @@
   </defs>
 
   <style>
-    .pill { fill: #09090B; stroke: #27272A; stroke-width: 1.2; }
-    .pill-light { fill: #18181B; stroke: #52525B; stroke-width: 1.2; }
+    .pill { fill: #140B07; stroke: #431407; stroke-width: 1.2; }
+    .pill-hot { fill: #1F1009; stroke: #EA580C; stroke-opacity: 0.75; stroke-width: 1.2; }
     .label {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-size: 14px;
       font-weight: 600;
-      fill: #A1A1AA;
+      fill: #D6D3D1;
     }
-    .label-white {
+    .label-hot {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-size: 14px;
       font-weight: 700;
-      fill: #FFFFFF;
+      fill: #FDBA74;
     }
     .row1 { animation: scrollLeft 22s linear infinite; }
     .row2 { animation: scrollRight 25s linear infinite; }
@@ -42,53 +42,51 @@
   </style>
 
   <g clip-path="url(#clip)">
-    
     <g class="row1">
       <g transform="translate(0, 12)">
-        <rect x="0" y="0" width="120" height="40" rx="20" class="pill-light" /><text x="60" y="25" text-anchor="middle" class="label-white">Next.js 16</text>
+        <rect x="0" y="0" width="120" height="40" rx="20" class="pill-hot" /><text x="60" y="25" text-anchor="middle" class="label-hot">Next.js 16</text>
         <rect x="136" y="0" width="120" height="40" rx="20" class="pill" /><text x="196" y="25" text-anchor="middle" class="label">React 19</text>
-        <rect x="272" y="0" width="130" height="40" rx="20" class="pill-light" /><text x="337" y="25" text-anchor="middle" class="label-white">TypeScript</text>
-        <rect x="418" y="0" width="110" height="40" rx="20" class="pill-light" /><text x="473" y="25" text-anchor="middle" class="label-white">NestJS</text>
-        <rect x="544" y="0" width="95" height="40" rx="20" class="pill-light" /><text x="591" y="25" text-anchor="middle" class="label-white">Rust</text>
+        <rect x="272" y="0" width="130" height="40" rx="20" class="pill-hot" /><text x="337" y="25" text-anchor="middle" class="label-hot">TypeScript</text>
+        <rect x="418" y="0" width="110" height="40" rx="20" class="pill-hot" /><text x="473" y="25" text-anchor="middle" class="label-hot">NestJS</text>
+        <rect x="544" y="0" width="95" height="40" rx="20" class="pill-hot" /><text x="591" y="25" text-anchor="middle" class="label-hot">Rust</text>
         <rect x="655" y="0" width="140" height="40" rx="20" class="pill" /><text x="725" y="25" text-anchor="middle" class="label">React Native</text>
-        <rect x="811" y="0" width="100" height="40" rx="20" class="pill-light" /><text x="861" y="25" text-anchor="middle" class="label-white">Tauri</text>
+        <rect x="811" y="0" width="100" height="40" rx="20" class="pill-hot" /><text x="861" y="25" text-anchor="middle" class="label-hot">Tauri</text>
         <rect x="927" y="0" width="115" height="40" rx="20" class="pill" /><text x="984" y="25" text-anchor="middle" class="label">Electron</text>
-        <rect x="1058" y="0" width="46" height="40" rx="20" class="pill" /><text x="1081" y="25" text-anchor="middle" class="label-white">✦</text>
+        <rect x="1058" y="0" width="46" height="40" rx="20" class="pill" /><text x="1081" y="25" text-anchor="middle" class="label-hot">✦</text>
       </g>
       <g transform="translate(1120, 12)">
-        <rect x="0" y="0" width="120" height="40" rx="20" class="pill-light" /><text x="60" y="25" text-anchor="middle" class="label-white">Next.js 16</text>
+        <rect x="0" y="0" width="120" height="40" rx="20" class="pill-hot" /><text x="60" y="25" text-anchor="middle" class="label-hot">Next.js 16</text>
         <rect x="136" y="0" width="120" height="40" rx="20" class="pill" /><text x="196" y="25" text-anchor="middle" class="label">React 19</text>
-        <rect x="272" y="0" width="130" height="40" rx="20" class="pill-light" /><text x="337" y="25" text-anchor="middle" class="label-white">TypeScript</text>
-        <rect x="418" y="0" width="110" height="40" rx="20" class="pill-light" /><text x="473" y="25" text-anchor="middle" class="label-white">NestJS</text>
-        <rect x="544" y="0" width="95" height="40" rx="20" class="pill-light" /><text x="591" y="25" text-anchor="middle" class="label-white">Rust</text>
+        <rect x="272" y="0" width="130" height="40" rx="20" class="pill-hot" /><text x="337" y="25" text-anchor="middle" class="label-hot">TypeScript</text>
+        <rect x="418" y="0" width="110" height="40" rx="20" class="pill-hot" /><text x="473" y="25" text-anchor="middle" class="label-hot">NestJS</text>
+        <rect x="544" y="0" width="95" height="40" rx="20" class="pill-hot" /><text x="591" y="25" text-anchor="middle" class="label-hot">Rust</text>
         <rect x="655" y="0" width="140" height="40" rx="20" class="pill" /><text x="725" y="25" text-anchor="middle" class="label">React Native</text>
-        <rect x="811" y="0" width="100" height="40" rx="20" class="pill-light" /><text x="861" y="25" text-anchor="middle" class="label-white">Tauri</text>
+        <rect x="811" y="0" width="100" height="40" rx="20" class="pill-hot" /><text x="861" y="25" text-anchor="middle" class="label-hot">Tauri</text>
         <rect x="927" y="0" width="115" height="40" rx="20" class="pill" /><text x="984" y="25" text-anchor="middle" class="label">Electron</text>
-        <rect x="1058" y="0" width="46" height="40" rx="20" class="pill" /><text x="1081" y="25" text-anchor="middle" class="label-white">✦</text>
+        <rect x="1058" y="0" width="46" height="40" rx="20" class="pill" /><text x="1081" y="25" text-anchor="middle" class="label-hot">✦</text>
       </g>
     </g>
 
-    
     <g class="row2">
       <g transform="translate(0, 68)">
         <rect x="0" y="0" width="115" height="40" rx="20" class="pill" /><text x="57" y="25" text-anchor="middle" class="label">Node.js</text>
         <rect x="131" y="0" width="125" height="40" rx="20" class="pill" /><text x="193" y="25" text-anchor="middle" class="label">Express.js</text>
-        <rect x="272" y="0" width="125" height="40" rx="20" class="pill-light" /><text x="334" y="25" text-anchor="middle" class="label-white">MongoDB</text>
+        <rect x="272" y="0" width="125" height="40" rx="20" class="pill-hot" /><text x="334" y="25" text-anchor="middle" class="label-hot">MongoDB</text>
         <rect x="413" y="0" width="105" height="40" rx="20" class="pill" /><text x="465" y="25" text-anchor="middle" class="label">MySQL</text>
         <rect x="534" y="0" width="95" height="40" rx="20" class="pill" /><text x="581" y="25" text-anchor="middle" class="label">Redis</text>
-        <rect x="645" y="0" width="140" height="40" rx="20" class="pill-light" /><text x="715" y="25" text-anchor="middle" class="label-white">Tailwind CSS</text>
+        <rect x="645" y="0" width="140" height="40" rx="20" class="pill-hot" /><text x="715" y="25" text-anchor="middle" class="label-hot">Tailwind CSS</text>
         <rect x="801" y="0" width="145" height="40" rx="20" class="pill" /><text x="873" y="25" text-anchor="middle" class="label">Redux Toolkit</text>
-        <rect x="962" y="0" width="142" height="40" rx="20" class="pill-light" /><text x="1033" y="25" text-anchor="middle" class="label-white">ASP.NET / C#</text>
+        <rect x="962" y="0" width="142" height="40" rx="20" class="pill-hot" /><text x="1033" y="25" text-anchor="middle" class="label-hot">ASP.NET / C#</text>
       </g>
       <g transform="translate(1120, 68)">
         <rect x="0" y="0" width="115" height="40" rx="20" class="pill" /><text x="57" y="25" text-anchor="middle" class="label">Node.js</text>
         <rect x="131" y="0" width="125" height="40" rx="20" class="pill" /><text x="193" y="25" text-anchor="middle" class="label">Express.js</text>
-        <rect x="272" y="0" width="125" height="40" rx="20" class="pill-light" /><text x="334" y="25" text-anchor="middle" class="label-white">MongoDB</text>
+        <rect x="272" y="0" width="125" height="40" rx="20" class="pill-hot" /><text x="334" y="25" text-anchor="middle" class="label-hot">MongoDB</text>
         <rect x="413" y="0" width="105" height="40" rx="20" class="pill" /><text x="465" y="25" text-anchor="middle" class="label">MySQL</text>
         <rect x="534" y="0" width="95" height="40" rx="20" class="pill" /><text x="581" y="25" text-anchor="middle" class="label">Redis</text>
-        <rect x="645" y="0" width="140" height="40" rx="20" class="pill-light" /><text x="715" y="25" text-anchor="middle" class="label-white">Tailwind CSS</text>
+        <rect x="645" y="0" width="140" height="40" rx="20" class="pill-hot" /><text x="715" y="25" text-anchor="middle" class="label-hot">Tailwind CSS</text>
         <rect x="801" y="0" width="145" height="40" rx="20" class="pill" /><text x="873" y="25" text-anchor="middle" class="label">Redux Toolkit</text>
-        <rect x="962" y="0" width="142" height="40" rx="20" class="pill-light" /><text x="1033" y="25" text-anchor="middle" class="label-white">ASP.NET / C#</text>
+        <rect x="962" y="0" width="142" height="40" rx="20" class="pill-hot" /><text x="1033" y="25" text-anchor="middle" class="label-hot">ASP.NET / C#</text>
       </g>
     </g>
 
