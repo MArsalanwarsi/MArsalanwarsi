@@ -2,15 +2,15 @@
   <style>
     .text {
       font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-      font-size: 18px;
-      font-weight: 700;
-      fill: #22D3EE;
+      font-size: 17px;
+      font-weight: 600;
+      fill: #FAFAFA;
     }
     .line1 { animation: show1 12s infinite; opacity: 0; }
     .line2 { animation: show2 12s infinite; opacity: 0; }
     .line3 { animation: show3 12s infinite; opacity: 0; }
     .cursor {
-      fill: #38BDF8;
+      fill: #A1A1AA;
       animation: blink 0.9s step-end infinite;
     }
     @keyframes show1 {
@@ -34,13 +34,13 @@
     }
   </style>
 
-  <rect x="1" y="1" width="898" height="50" rx="10" fill="#070B14" stroke="#1E293B" stroke-width="1.5" />
-  <circle cx="24" cy="26" r="5" fill="#EF4444" />
-  <circle cx="42" cy="26" r="5" fill="#F59E0B" />
-  <circle cx="60" cy="26" r="5" fill="#10B981" />
+  <rect x="1" y="1" width="898" height="50" rx="10" fill="#09090B" stroke="#27272A" stroke-width="1.5" />
+  <circle cx="24" cy="26" r="4.5" fill="#52525B" />
+  <circle cx="42" cy="26" r="4.5" fill="#71717A" />
+  <circle cx="60" cy="26" r="4.5" fill="#A1A1AA" />
 
   <text x="86" y="32" class="text line1">&gt; Building Scalable Web, Mobile &amp; Desktop Applications</text>
   <text x="86" y="32" class="text line2">&gt; Next.js • NestJS • Rust • TypeScript • React Native • Tauri</text>
   <text x="86" y="32" class="text line3">&gt; Teaching Associate @ Aptech | Open to High-Impact Roles</text>
-  <rect x="858" y="15" width="10" height="22" rx="2" class="cursor" />
+  <rect x="858" y="15" width="9" height="22" rx="2" class="cursor" />
 </svg>
