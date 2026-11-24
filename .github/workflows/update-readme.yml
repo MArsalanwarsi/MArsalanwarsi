@@ -1,0 +1,104 @@
+name: Update Dynamic Profile
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Runs automatically every 12 hours
+  workflow_dispatch:       # Allows manual 1-click run from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch all public repos & update README.md
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const username = context.repo.owner;
+
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username,
+              type: 'owner',
+              sort: 'updated',
+              per_page: 100
+            });
+
+            const publicRepos = repos
+              .filter(r => !r.fork && r.name.toLowerCase() !== username.toLowerCase())
+              .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
+
+            const totalStars = publicRepos.reduce((sum, r) => sum + r.stargazers_count, 0);
+
+            const statsBlock = `<p>
+  <img src="https://img.shields.io/badge/Public%20Repos-${publicRepos.length}-EA580C?style=flat-square&labelColor=140B07" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/Total%20Stars-${totalStars}-C2410C?style=flat-square&labelColor=140B07" alt="Total Stars" />
+  <img src="https://img.shields.io/badge/Skills%20%26%20Tools-67+-9A3412?style=flat-square&labelColor=140B07" alt="Skills and Tools" />
+  <img src="https://img.shields.io/badge/Certificates%20%26%20Awards-06-431407?style=flat-square&labelColor=140B07" alt="Certificates and Awards" />
+</p>`;
+
+            const rows = publicRepos.map(r => {
+              const desc = (r.description || 'Full-stack / engineering repository').replace(/\|/g, '-').slice(0, 85);
+              const lang = r.language ? `\`${r.language}\`` : '`Multi`';
+              const live = r.homepage ? ` · [Live](${r.homepage})` : '';
+              const updated = r.pushed_at.slice(0, 10);
+              return `| [**${r.name}**](${r.html_url})${live} | ${desc} | ${lang} | ⭐ ${r.stargazers_count} | ${updated} |`;
+            });
+
+            const topRows = rows.slice(0, 8).join('\n');
+            const moreRows = rows.slice(8).join('\n');
+
+            let reposBlock = `| Repository | Description | Language | Stars | Updated |\n| :--- | :--- | :---: | :---: | :---: |\n${topRows}`;
+
+            if (moreRows.length > 0) {
+              reposBlock += `\n\n<details>\n<summary><strong>View All ${publicRepos.length} Public Repositories (${rows.length - 8} more)</strong></summary>\n\n| Repository | Description | Language | Stars | Updated |\n| :--- | :--- | :---: | :---: | :---: |\n${moreRows}\n\n</details>`;
+            }
+
+            let readme = fs.readFileSync('README.md', 'utf8');
+
+            readme = readme.replace(
+              /<!-- AUTO-STATS:START -->[\s\S]*?<!-- AUTO-STATS:END -->/,
+              `<!-- AUTO-STATS:START -->\n${statsBlock}\n<!-- AUTO-STATS:END -->`
+            );
+
+            readme = readme.replace(
+              /<!-- AUTO-REPOS:START -->[\s\S]*?<!-- AUTO-REPOS:END -->/,
+              `<!-- AUTO-REPOS:START -->\n${reposBlock}\n<!-- AUTO-REPOS:END -->`
+            );
+
+            fs.writeFileSync('README.md', readme);
+
+      - name: Generate 3D Contribution Calendar
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit updated README & 3D Calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile-3d-contrib/
+          git diff --staged --quiet || git commit -m "chore: auto-sync repos, stats & 3D contribution graph"
+          git push
+
+      - name: Generate Contribution Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=FB923C&color_dots=#1C100B,#431407,#9A3412,#EA580C,#FDBA74
+
+      - name: Push Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
