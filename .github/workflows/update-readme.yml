@@ -35,12 +35,14 @@ jobs:
 
             const totalStars = publicRepos.reduce((sum, r) => sum + r.stargazers_count, 0);
 
-            const statsBlock = `<p>
-  <img src="https://img.shields.io/badge/Public%20Repos-${publicRepos.length}-EA580C?style=flat-square&labelColor=140B07" alt="Public Repos" />
-  <img src="https://img.shields.io/badge/Total%20Stars-${totalStars}-C2410C?style=flat-square&labelColor=140B07" alt="Total Stars" />
-  <img src="https://img.shields.io/badge/Skills%20%26%20Tools-67+-9A3412?style=flat-square&labelColor=140B07" alt="Skills and Tools" />
-  <img src="https://img.shields.io/badge/Certificates%20%26%20Awards-06-431407?style=flat-square&labelColor=140B07" alt="Certificates and Awards" />
-</p>`;
+            const statsBlock = [
+              '<p>',
+              `  <img src="https://img.shields.io/badge/Public%20Repos-${publicRepos.length}-EA580C?style=flat-square&labelColor=140B07" alt="Public Repos" />`,
+              `  <img src="https://img.shields.io/badge/Total%20Stars-${totalStars}-C2410C?style=flat-square&labelColor=140B07" alt="Total Stars" />`,
+              '  <img src="https://img.shields.io/badge/Skills%20%26%20Tools-67+-9A3412?style=flat-square&labelColor=140B07" alt="Skills and Tools" />',
+              '  <img src="https://img.shields.io/badge/Certificates%20%26%20Awards-06-431407?style=flat-square&labelColor=140B07" alt="Certificates and Awards" />',
+              '</p>'
+            ].join('\n');
 
             const rows = publicRepos.map(r => {
               const desc = (r.description || 'Full-stack / engineering repository').replace(/\|/g, '-').slice(0, 85);
@@ -53,10 +55,23 @@ jobs:
             const topRows = rows.slice(0, 8).join('\n');
             const moreRows = rows.slice(8).join('\n');
 
-            let reposBlock = `| Repository | Description | Language | Stars | Updated |\n| :--- | :--- | :---: | :---: | :---: |\n${topRows}`;
+            let reposBlock = [
+              '| Repository | Description | Language | Stars | Updated |',
+              '| :--- | :--- | :---: | :---: | :---: |',
+              topRows
+            ].join('\n');
 
             if (moreRows.length > 0) {
-              reposBlock += `\n\n<details>\n<summary><strong>View All ${publicRepos.length} Public Repositories (${rows.length - 8} more)</strong></summary>\n\n| Repository | Description | Language | Stars | Updated |\n| :--- | :--- | :---: | :---: | :---: |\n${moreRows}\n\n</details>`;
+              reposBlock += '\n\n' + [
+                '<details>',
+                `<summary><strong>View All ${publicRepos.length} Public Repositories (${rows.length - 8} more)</strong></summary>`,
+                '',
+                '| Repository | Description | Language | Stars | Updated |',
+                '| :--- | :--- | :---: | :---: | :---: |',
+                moreRows,
+                '',
+                '</details>'
+              ].join('\n');
             }
 
             let readme = fs.readFileSync('README.md', 'utf8');
@@ -74,7 +89,7 @@ jobs:
             fs.writeFileSync('README.md', readme);
 
       - name: Generate 3D Contribution Calendar
-        uses: yoshi389111/github-profile-3d-contrib@latest
+        uses: yoshi389111/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
