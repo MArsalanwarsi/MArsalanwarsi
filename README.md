@@ -87,7 +87,35 @@ I am **Muhammad Arsalan Warsi**, a Full-Stack & Cross-Platform Software Engineer
 ## All Public Repositories (Auto-Synced Daily)
 
 <!-- REPOS:START -->
-_Run the `Update Dynamic Repos` GitHub Action to populate all public repositories automatically._
+**Total Active Public Repositories:** `25` *(auto-updated via GitHub Actions)*
+
+| Repository | Description | Stack | Stars | Last Updated |
+| :--- | :--- | :---: | :---: | :---: |
+| [**glowafter**](https://github.com/MArsalanwarsi/glowafter) · [Live](https://glowafter.vercel.app/) | Production code & engineering build | `TypeScript` | ⭐ 0 | 2026-11-23 |
+| [**Portfolio_nextjs**](https://github.com/MArsalanwarsi/Portfolio_nextjs) | Production code & engineering build | `TypeScript` | ⭐ 0 | 2026-11-22 |
+| [**AAtech**](https://github.com/MArsalanwarsi/AAtech) · [Live](https://a-atech.vercel.app) | Production code & engineering build | `Python` | ⭐ 0 | 2026-11-15 |
+| [**create-modern-mern-app**](https://github.com/MArsalanwarsi/create-modern-mern-app) · [Live](https://create-modern-mern-app.vercel.app) | Production code & engineering build | `JavaScript` | ⭐ 0 | 2026-11-15 |
+| [**thriftshoewear-dashboard**](https://github.com/MArsalanwarsi/thriftshoewear-dashboard) · [Live](https://thriftshoewear-dashboard.vercel.app) | Production code & engineering build | `JavaScript` | ⭐ 0 | 2026-10-12 |
+| [**mygame**](https://github.com/MArsalanwarsi/mygame) | Production code & engineering build | `C#` | ⭐ 0 | 2026-09-08 |
+| [**gametest-2026-09-07_21-02-02**](https://github.com/MArsalanwarsi/gametest-2026-09-07_21-02-02) | Production code & engineering build | `Multi` | ⭐ 0 | 2026-09-07 |
+| [**smart_housing_backend**](https://github.com/MArsalanwarsi/smart_housing_backend) | Production code & engineering build | `JavaScript` | ⭐ 0 | 2026-08-16 |
+| [**growthAi**](https://github.com/MArsalanwarsi/growthAi) · [Live](https://growth-ai-eight.vercel.app) | Production code & engineering build | `JavaScript` | ⭐ 0 | 2026-05-28 |
+| [**React_Shoes_website**](https://github.com/MArsalanwarsi/React_Shoes_website) | Production code & engineering build | `Multi` | ⭐ 0 | 2026-04-24 |
+| [**React_Class_Data**](https://github.com/MArsalanwarsi/React_Class_Data) | Production code & engineering build | `JavaScript` | ⭐ 0 | 2025-11-27 |
+| [**sustainable_living**](https://github.com/MArsalanwarsi/sustainable_living) | Production code & engineering build | `Dart` | ⭐ 0 | 2025-11-23 |
+| [**Arsalan_Portfolio**](https://github.com/MArsalanwarsi/Arsalan_Portfolio) | Production code & engineering build | `HTML` | ⭐ 0 | 2025-03-15 |
+| [**aspnetclass**](https://github.com/MArsalanwarsi/aspnetclass) | Production code & engineering build | `CSS` | ⭐ 0 | 2025-02-28 |
+| [**Wood_Works**](https://github.com/MArsalanwarsi/Wood_Works) | Production code & engineering build | `CSS` | ⭐ 0 | 2024-11-30 |
+| [**E-Project**](https://github.com/MArsalanwarsi/E-Project) | Production code & engineering build | `JavaScript` | ⭐ 0 | 2024-11-20 |
+| [**K-Medicos-drug-store-using-PHP-and-MYSQL**](https://github.com/MArsalanwarsi/K-Medicos-drug-store-using-PHP-and-MYSQL) | Production code & engineering build | `HTML` | ⭐ 0 | 2024-09-16 |
+| [**Contest-AZM-plant-based-website**](https://github.com/MArsalanwarsi/Contest-AZM-plant-based-website) | Production code & engineering build | `HTML` | ⭐ 0 | 2024-08-25 |
+| [**History-Monument**](https://github.com/MArsalanwarsi/History-Monument) | blog website through json and bootstrap | `HTML` | ⭐ 0 | 2024-08-18 |
+| [**Login-and-register-using-php-mysql-and-ajax**](https://github.com/MArsalanwarsi/Login-and-register-using-php-mysql-and-ajax) | Production code & engineering build | `CSS` | ⭐ 0 | 2024-08-18 |
+| [**Aptech_DSL_2024**](https://github.com/MArsalanwarsi/Aptech_DSL_2024) | Production code & engineering build | `HTML` | ⭐ 0 | 2024-08-15 |
+| [**Class-Data**](https://github.com/MArsalanwarsi/Class-Data) | Production code & engineering build | `HTML` | ⭐ 0 | 2024-08-06 |
+| [**Calculator**](https://github.com/MArsalanwarsi/Calculator) | Production code & engineering build | `HTML` | ⭐ 0 | 2024-06-22 |
+| [**Bright_world_using-OOP-and-Module**](https://github.com/MArsalanwarsi/Bright_world_using-OOP-and-Module) | Production code & engineering build | `HTML` | ⭐ 0 | 2024-06-13 |
+| [**E-Project-Bright-World**](https://github.com/MArsalanwarsi/E-Project-Bright-World) | Bright World is having store for LED Lights. They have collection of lights. Now with the  | `HTML` | ⭐ 1 | 2024-05-29 |
 <!-- REPOS:END -->
 
 <p align="center">
