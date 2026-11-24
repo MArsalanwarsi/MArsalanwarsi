@@ -1,18 +1,18 @@
 <svg width="1200" height="12" viewBox="0 0 1200 12" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FB923C" stop-opacity="1" />
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0" />
     </linearGradient>
   </defs>
   <style>
-    .laser { animation: slide 4s ease-in-out infinite; }
+    .laser { animation: slide 3.8s ease-in-out infinite; }
     @keyframes slide {
       0% { transform: translateX(-350px); }
       100% { transform: translateX(1200px); }
     }
   </style>
-  <rect x="0" y="5" width="1200" height="1" fill="#27272A" />
+  <rect x="0" y="5" width="1200" height="1" fill="#431407" />
   <rect x="0" y="4.5" width="350" height="2" fill="url(#beam)" class="laser" />
 </svg>
