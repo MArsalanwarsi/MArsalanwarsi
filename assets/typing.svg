@@ -1,0 +1,46 @@
+<svg width="900" height="52" viewBox="0 0 900 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 18px;
+      font-weight: 700;
+      fill: #22D3EE;
+    }
+    .line1 { animation: show1 12s infinite; opacity: 0; }
+    .line2 { animation: show2 12s infinite; opacity: 0; }
+    .line3 { animation: show3 12s infinite; opacity: 0; }
+    .cursor {
+      fill: #38BDF8;
+      animation: blink 0.9s step-end infinite;
+    }
+    @keyframes show1 {
+      0%, 2% { opacity: 0; }
+      5%, 30% { opacity: 1; }
+      33%, 100% { opacity: 0; }
+    }
+    @keyframes show2 {
+      0%, 33% { opacity: 0; }
+      36%, 63% { opacity: 1; }
+      66%, 100% { opacity: 0; }
+    }
+    @keyframes show3 {
+      0%, 66% { opacity: 0; }
+      69%, 96% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="898" height="50" rx="10" fill="#070B14" stroke="#1E293B" stroke-width="1.5" />
+  <circle cx="24" cy="26" r="5" fill="#EF4444" />
+  <circle cx="42" cy="26" r="5" fill="#F59E0B" />
+  <circle cx="60" cy="26" r="5" fill="#10B981" />
+
+  <text x="86" y="32" class="text line1">&gt; Building Scalable Web, Mobile &amp; Desktop Applications</text>
+  <text x="86" y="32" class="text line2">&gt; Next.js • NestJS • Rust • TypeScript • React Native • Tauri</text>
+  <text x="86" y="32" class="text line3">&gt; Teaching Associate @ Aptech | Open to High-Impact Roles</text>
+  <rect x="858" y="15" width="10" height="22" rx="2" class="cursor" />
+</svg>
