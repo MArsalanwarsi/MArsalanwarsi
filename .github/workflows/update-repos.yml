@@ -1,0 +1,72 @@
+name: Update Dynamic Repos
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-repos.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch all public repos and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e '
+            const fs = require("fs");
+
+            async function run() {
+              const res = await fetch("https://api.github.com/users/MArsalanwarsi/repos?type=owner&sort=updated&per_page=100", {
+                headers: {
+                  "Accept": "application/vnd.github+json",
+                  "Authorization": `Bearer ${process.env.GH_TOKEN}`
+                }
+              });
+              const repos = await res.json();
+
+              const filtered = repos
+                .filter(r => !r.fork && r.name.toLowerCase() !== "marsalanwarsi")
+                .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
+
+              const rows = filtered.map(r => {
+                const desc = (r.description || "Production code & engineering build").replace(/\|/g, "-").slice(0, 90);
+                const lang = r.language ? `\`${r.language}\`` : "`Multi`";
+                const updated = r.pushed_at.split("T")[0];
+                const demo = r.homepage ? ` · [Live](${r.homepage})` : "";
+                return `| [**${r.name}**](${r.html_url})${demo} | ${desc} | ${lang} | ⭐ ${r.stargazers_count} | ${updated} |`;
+              });
+
+              const table = [
+                `**Total Active Public Repositories:** \`${filtered.length}\` *(auto-updated via GitHub Actions)*\n`,
+                "| Repository | Description | Stack | Stars | Last Updated |",
+                "| :--- | :--- | :---: | :---: | :---: |",
+                ...rows
+              ].join("\n");
+
+              const readme = fs.readFileSync("README.md", "utf8");
+              const updatedReadme = readme.replace(
+                /<!-- REPOS:START -->[\s\S]*?<!-- REPOS:END -->/,
+                `<!-- REPOS:START -->\n${table}\n<!-- REPOS:END -->`
+              );
+
+              fs.writeFileSync("README.md", updatedReadme);
+            }
+            run().catch(err => { console.error(err); process.exit(1); });
+          '
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: auto-sync public repositories" && git push)
