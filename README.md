@@ -71,11 +71,11 @@ STATUS        = Open to high-impact engineering roles & collaborations
 <!-- AUTO-REPOS:START -->
 | Repository | Description | Language | Stars | Updated |
 | :--- | :--- | :---: | :---: | :---: |
+| [**thriftshoewear-dashboard**](https://github.com/MArsalanwarsi/thriftshoewear-dashboard) · [Live](https://thriftshoewear-dashboard.vercel.app) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-11-25 |
 | [**Portfolio_nextjs**](https://github.com/MArsalanwarsi/Portfolio_nextjs) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-11-24 |
 | [**glowafter**](https://github.com/MArsalanwarsi/glowafter) · [Live](https://glowafter.vercel.app/) | Full-stack / engineering repository | `TypeScript` | ⭐ 0 | 2026-11-23 |
 | [**AAtech**](https://github.com/MArsalanwarsi/AAtech) · [Live](https://a-atech.vercel.app) | Full-stack / engineering repository | `Python` | ⭐ 0 | 2026-11-15 |
 | [**create-modern-mern-app**](https://github.com/MArsalanwarsi/create-modern-mern-app) · [Live](https://create-modern-mern-app.vercel.app) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-11-15 |
-| [**thriftshoewear-dashboard**](https://github.com/MArsalanwarsi/thriftshoewear-dashboard) · [Live](https://thriftshoewear-dashboard.vercel.app) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-10-12 |
 | [**mygame**](https://github.com/MArsalanwarsi/mygame) | Full-stack / engineering repository | `C#` | ⭐ 0 | 2026-09-08 |
 | [**gametest-2026-09-07_21-02-02**](https://github.com/MArsalanwarsi/gametest-2026-09-07_21-02-02) | Full-stack / engineering repository | `Multi` | ⭐ 0 | 2026-09-07 |
 | [**smart_housing_backend**](https://github.com/MArsalanwarsi/smart_housing_backend) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-08-16 |
