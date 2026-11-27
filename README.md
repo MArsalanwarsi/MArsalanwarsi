@@ -71,7 +71,7 @@ STATUS        = Open to high-impact engineering roles & collaborations
 <!-- AUTO-REPOS:START -->
 | Repository | Description | Language | Stars | Updated |
 | :--- | :--- | :---: | :---: | :---: |
-| [**thriftshoewear-dashboard**](https://github.com/MArsalanwarsi/thriftshoewear-dashboard) · [Live](https://thriftshoewear-dashboard.vercel.app) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-11-25 |
+| [**thriftshoewear-dashboard**](https://github.com/MArsalanwarsi/thriftshoewear-dashboard) · [Live](https://thriftshoewear-dashboard.vercel.app) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-11-27 |
 | [**Portfolio_nextjs**](https://github.com/MArsalanwarsi/Portfolio_nextjs) | Full-stack / engineering repository | `JavaScript` | ⭐ 0 | 2026-11-24 |
 | [**glowafter**](https://github.com/MArsalanwarsi/glowafter) · [Live](https://glowafter.vercel.app/) | Full-stack / engineering repository | `TypeScript` | ⭐ 0 | 2026-11-23 |
 | [**AAtech**](https://github.com/MArsalanwarsi/AAtech) · [Live](https://a-atech.vercel.app) | Full-stack / engineering repository | `Python` | ⭐ 0 | 2026-11-15 |
